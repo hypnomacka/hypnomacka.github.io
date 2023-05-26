@@ -1,0 +1,66 @@
+body {
+  background: #000;
+  color: #fff;
+  font: 900 1.2rem Jua;
+  margin: 0;
+}
+
+#app {
+  display: grid;
+  height: 100dvh;
+  width: 100%;
+}
+
+.music {
+  display: grid;
+  gap: 8px;
+  width: 290px;
+  margin: auto;
+}
+
+.img {
+  border-radius: 6px;
+  box-shadow: 8px 4px 100px #e3b0e5;
+  height: 290px;
+  width: 290px;
+}
+
+.mbarWrap {
+  height: 14px;
+  position: sticky;
+}
+
+.mbar {
+  background: #e3b0e5;
+  border-radius: 6px;
+  height: 100%;
+  width: 40%;
+}
+
+.timeStamps {
+  height: 20;
+  position: sticky;
+  width: 100%;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+}
+
+.bottomText {
+  height: 20;
+  position: absolute;
+  width: 100%;
+  left: 15;
+}
+
+.bottom {
+  position: absolute;
+  bottom: -260;
+}
